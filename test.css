@@ -19,16 +19,31 @@ body{
 }
 .item1{ 
     grid-column: 1/5;
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     /* border-radius: 20px; */
     text-align: center;
+    -webkit-transition-duration: 0.5s;
     font-size: 3em;
+    border: 2px solid rgb(136, 116, 163);
+    border-radius: 10px; 
 }
+/* @-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+ } */
 .item1:hover {
     font-size: 3.6em;
-    -webkit-transition-duration: 0.5s;
-    border: 5px solid black;
+    border: 10px solid white;
+    border-radius: 10px; 
+    color: rgb(109, 192, 188);
+    background: white;
+    color: black;
+    /* border: 5px solid black; */
 }
 #button {
     background-color: rgb(163, 198, 230); /* Green */
@@ -40,8 +55,8 @@ body{
     display: inline-block;
     font-size: 1em;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
     cursor: pointer;
 }
 #button:hover {
@@ -52,4 +67,10 @@ body{
     /* background-color: white;  */
     /* color: black;  */
     border: 5px solid #008CBA;
+}
+p{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 800px;
 }

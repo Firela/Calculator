@@ -60,13 +60,15 @@ body{
     cursor: pointer;
 }
 #button:hover {
-    font-size: 1.3em;
+/*     font-size: 1.3em; */
     -webkit-transition-duration: 0.5s;
     background-color: #008CBA;
     color: white;
     /* background-color: white;  */
     /* color: black;  */
-    border: 5px solid #008CBA;
+/*     border: 5px solid #008CBA; */
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 p{
     color: white;
